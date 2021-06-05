@@ -1,0 +1,517 @@
+:root {
+  --body-backround-color: #e6e6e6;
+  --menu-background-color: #b3b3b3;
+  --contacts-background-color: white;
+  --primary-text-color: #4d4d4d;
+  --contacts-text-color: #666a73;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-backround-color);
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* Styles for link text */
+.link-text {
+  color: #0b468f;
+  text-decoration: solid;
+}
+
+.link-text:hover,
+.link-text:hover:visited {
+  color: #1d7bf0;
+}
+
+.link-text:visited {
+  color: #3d4742;
+}
+
+.link-text-inline {
+  text-decoration: underline;
+}
+
+/* Menu bar */
+header {
+  background-color: var(--menu-background-color);
+  height: 45px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav .left-menu,
+.right-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 4px;
+}
+
+.morning-sit-image-menu {
+  height: 25px;
+  position: relative;
+  bottom: 2px;
+  opacity: 100%;
+  margin-right: 8px;
+}
+nav .menu-item {
+  display: flex;
+  list-style-type: none;
+  margin: 0px 15px;
+  font-size: 1.25rem;
+  align-items: center;
+}
+
+/* Picture banner */
+.pic-intro {
+  width: 100%;
+}
+
+/* Common main section parameters */
+main {
+  font-family: "Mukta", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: var(--primary-text-color);
+  padding-bottom: 6rem;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top {
+  margin: 3rem 0rem;
+}
+
+.line-space,
+br {
+  height: 1rem;
+}
+
+.line-space-small {
+  height: 0.7rem;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 960px;
+}
+
+/* For pages whose content is enclosed in a box */
+.page-box {
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: 1px var(--menu-background-color) solid;
+  padding: 3% 5%;
+  line-height: 2rem;
+}
+
+/* Main page */
+.portrait {
+  margin-left: 5%;
+  margin-right: 3%;
+  max-width: 100%;
+  max-height: 80%;
+  border-radius: 2%;
+  margin-bottom: 1rem;
+}
+
+.welcome-events {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  margin-right: 3.5%;
+  line-height: 1.5rem;
+}
+
+.welcome-text {
+  font-size: 1.25rem;
+  margin: 0 30px 0 30px;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+}
+
+.events-row {
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: 1px #b3b3b3 solid;
+  padding: 3% 5%;
+}
+
+.events-date {
+  font-size: 1.5rem;
+  width: 20%;
+  min-width: 20%;
+  margin-right: 5%;
+}
+
+.events-description {
+  flex-direction: column;
+}
+
+.events-name {
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.events-summary,
+.events-location {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+/* Talks page */
+.page-talks {
+  max-width: 960px;
+}
+
+.talk-list {
+  list-style-type: none;
+  padding-top: 1rem;
+}
+
+.talk {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  margin-left: 5%;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-top: 1px solid var(--contacts-text-color);
+}
+
+.talk-name {
+  max-width: 45%;
+}
+
+.talk-event-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 0.5%;
+  max-width: 45%;
+}
+
+.talk-event {
+  margin-left: 0%;
+  line-height: 1.15rem;
+  font-size: 1rem;
+  font-style: italic;
+  text-align: right;
+}
+
+.talk-date {
+  margin-left: 0%;
+  line-height: 1.15rem;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.project-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+}
+
+.project-description {
+  margin-left: 0%;
+  line-height: 1.15rem;
+  font-size: 1rem;
+  font-style: italic;
+  text-align: left;
+}
+
+.project-copyright {
+  font-size: 1rem;
+  margin-left: 1%;
+  /* text-align: center; */
+  /* line-height: 1rem; */
+}
+
+/* Morning sit page */
+.morning-sit-title {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.morning-sit-title-small {
+  line-height: 0.7rem;
+}
+
+.morning-sit-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.morning-sit-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 5%;
+}
+
+.morning-sit-paragraph {
+  width: 50%;
+  padding: 3% 3%;
+}
+
+.morning-sit-image {
+  position: relative;
+  right: 5px;
+  height: 240px;
+}
+
+.morning-sit-image:hover {
+  opacity: 50%;
+}
+
+.morning-sit-description {
+  margin-left: 0;
+}
+
+.morning-sit-list {
+  list-style-type: none;
+}
+
+.clock {
+  margin-top: -20%;
+  margin-bottom: -10%;
+  pointer-events: none;
+}
+
+/* Contact page */
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 480px;
+  max-width: 640px;
+}
+
+.contact-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7%;
+}
+
+.contact-row-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  border: 1px #b3b3b3 solid;
+  border-radius: 10px;
+  padding: 2% 2%;
+  width: 20%;
+}
+
+.contact-row-link:hover {
+  opacity: 66%;
+}
+
+.contact-row-divider {
+  border-bottom: 1px #b3b3b3 solid;
+}
+
+.icon-mailchimp {
+  position: relative;
+  left: 0%;
+}
+
+/* Donate page */
+.flag-inline {
+  height: 1rem;
+}
+
+/* Contacts Bar */
+.contacts {
+  width: 100%;
+  height: 300px;
+  background-color: var(--contacts-background-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-box {
+  width: 960px;
+  height: 150px;
+  margin-left: 0;
+}
+
+.icon-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.icon-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon {
+  height: 90px;
+}
+
+.icon:hover {
+  opacity: 50%;
+}
+
+.icon-text {
+  font-size: 1.25rem;
+  width: 125px;
+  text-align: center;
+  color: var(--contacts-text-color);
+  padding-top: 7%;
+}
+
+/* Credits footer */
+.credits {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.credits-list-left {
+  margin-left: 2px;
+  list-style-type: none;
+  font-size: 0.75rem;
+}
+
+.credits-list-right {
+  margin-right: 2px;
+  list-style-type: none;
+  font-size: 0.75rem;
+}
+
+/* Responsive page elements - under construction */
+@media only screen and (max-width: 450px) {
+  /* header .menu-item {
+    font-size: 10px;
+    margin-right: 4px;
+  }
+
+  header .home {
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+    font-size: 18px;
+  }
+
+  header .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } */
+}
+
+@media only screen and (max-width: 720px) {
+  header {
+    height: 65px;
+    position: absolute;
+  }
+
+  .morning-sit-image-menu {
+    display: none;
+  }
+}
+
+/* @media only screen and (max-width: 640px) {
+  .icon-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacts {
+    height: 100%;
+    justify-content: flex-start;
+  }
+}
+
+.icon-box {
+  height: auto;
+} */
+
+@media only screen and (min-width: 960px) {
+  main {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  /* .icon-box {
+    width: 960px;
+  } */
+}
