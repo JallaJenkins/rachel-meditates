@@ -5,6 +5,22 @@
 
 const upcomingEvents = [
   {
+    startDate: new Date(2021, 11, 20),
+    title: `The Foundations of Mindfulness with Bhikkhu Anālayo`,
+    displayDate: `Oct 1 - Dec 24`,
+    link: "https://wisdomexperience.org/courses/foundations-mindfulness/",
+    summary: `12-week course - open for registration`,
+    location: `ONLINE`,
+  },
+  {
+    startDate: new Date(2021, 8, 14),
+    title: `Finding Refuge: Chanting and Meditation`,
+    displayDate: `Sept 14<br>4-5:30 PM<br>PT`,
+    link: "https://rivervalleyinsight.org/meditations-and-talks/",
+    summary: `Dharma talk`,
+    location: `ONLINE`,
+  },
+  {
     startDate: new Date(2021, 6, 22),
     title: `Online Retreat with Rachel Lewis and Vance Pryor`,
     displayDate: `Jul 22 - <br>Jul 25`,
@@ -13,7 +29,7 @@ const upcomingEvents = [
     location: `ONLINE`,
   },
   {
-    startDate: new Date(2021, 8, 17),
+    startDate: new Date(2021, 7, 17),
     title: `Tuesday Night BCIMS Drop-In`,
     displayDate: `Aug 17 <br>7-8:30 PM PT`,
     link: "https://www.eventbrite.ca/e/tuesday-evening-drop-in-meditation-group-tickets-153058892267",
@@ -21,7 +37,7 @@ const upcomingEvents = [
     location: `ONLINE`,
   },
   {
-    startDate: new Date(2021, 11, 24),
+    startDate: new Date(2021, 10, 4),
     title: `Evening Talk for New York Insight`,
     displayDate: `Nov 4 <br>4-6 PM <br>PT`,
     link: "https://www.nyimc.org/events/category/evening-events/",
@@ -29,15 +45,7 @@ const upcomingEvents = [
     location: `ONLINE`,
   },
   {
-    startDate: new Date(2021, 9, 11),
-    title: `Day of Practice: Living Generously`,
-    displayDate: `Sept 11 <br>9 AM -4 PM <br>PT`,
-    link: "https://daylong_generosity.eventbrite.ca",
-    summary: `Day-long retreat`,
-    location: `ONLINE`,
-  },
-  {
-    startDate: new Date(2021, 9, 8),
+    startDate: new Date(2021, 8, 8),
     title: `Introduction to Meditation: Mindfulness, Loving-Kindness, and Liberation`,
     displayDate: `Sept 8 - <br>Oct 6`,
     link: "https://intro_mindfulness.eventbrite.ca",
@@ -53,7 +61,7 @@ const upcomingEvents = [
     location: `ONLINE`,
   },
   {
-    startDate: new Date(2021, 9, 18),
+    startDate: new Date(2021, 8, 18),
     title: `Eightfold Path Intensive`,
     displayDate: `Sept 18 - <br>May 14`,
     link: "https://docs.google.com/document/d/1cmjjAB1-TNTvpwemQqtkMjGoAqGcFGFkUgfYTczSAbY/edit",
@@ -61,11 +69,11 @@ const upcomingEvents = [
     location: `ONLINE`,
   },
   {
-    startDate: new Date(2021, 10, 10),
-    title: `Satipatthana Meditation with Bikkhu Analayo`,
+    startDate: new Date(2021, 9, 10),
+    title: `Satipatthana Meditation with Bhikkhu Anālayo`,
     displayDate: `Oct 10 - <br>Dec 11`,
     link: "https://www.buddhistinquiry.org/online-programs/satipatthana_meditation/",
-    summary: `9 week course - registration opens August 21`,
+    summary: `9 week course - registration now closed`,
     location: `ONLINE`,
   },
   {
