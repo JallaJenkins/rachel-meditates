@@ -7,7 +7,7 @@ const upcomingEvents = [
   {
     startDate: new Date(2021, 11, 20),
     title: `The Foundations of Mindfulness with Bhikkhu Anālayo`,
-    displayDate: `Oct 1 - Dec 24`,
+    displayDate: `Oct 1 - <br>Dec 24`,
     link: "https://wisdomexperience.org/courses/foundations-mindfulness/",
     summary: `12-week course - open for registration`,
     location: `ONLINE`,
