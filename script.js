@@ -5,7 +5,15 @@
 
 const upcomingEvents = [
   {
-    startDate: new Date(2021, 11, 20),
+    startDate: new Date(2021, 10, 9),
+    title: `Waking up to the truth: mindfulness and the four noble truths`,
+    displayDate: `Nov 9 - <br>Dec 14`,
+    link: "https://www.eventbrite.ca/e/waking-up-to-the-truth-mindfulness-and-the-four-noble-truths-tickets-176667265547",
+    summary: `Weekly evening class`,
+    location: `ONLINE`,
+  },
+  {
+    startDate: new Date(2021, 9, 20),
     title: `The Foundations of Mindfulness with Bhikkhu Anālayo`,
     displayDate: `Oct 1 - <br>Dec 24`,
     link: "https://wisdomexperience.org/courses/foundations-mindfulness/",
@@ -13,7 +21,7 @@ const upcomingEvents = [
     location: `ONLINE`,
   },
   {
-    startDate: new Date(2021, 8, 14),
+    startDate: new Date(2021, 8, 15),
     title: `Finding Refuge: Chanting and Meditation`,
     displayDate: `Sept 14<br>4-5:30 PM<br>PT`,
     link: "https://rivervalleyinsight.org/meditations-and-talks/",
