@@ -5,6 +5,14 @@
 
 const upcomingEvents = [
   {
+    startDate: new Date(2021, 10, 30),
+    title: `The Way of the Buddha: Module 11`,
+    displayDate: `Nov 2 - <br>Nov 30`,
+    link: "https://www.union.fit/events/insight-meditation-society-the-way-of-the-buddha-module-11-21wob11",
+    summary: `Weekly evening class`,
+    location: `ONLINE`,
+  },
+  {
     startDate: new Date(2021, 10, 9),
     title: `Waking up to the truth: mindfulness and the four noble truths`,
     displayDate: `Nov 9 - <br>Dec 14`,
@@ -48,8 +56,8 @@ const upcomingEvents = [
     startDate: new Date(2021, 10, 4),
     title: `Evening Talk for New York Insight`,
     displayDate: `Nov 4 <br>4-6 PM <br>PT`,
-    link: "https://www.nyimc.org/events/category/evening-events/",
-    summary: `Dharma talk - event listing coming soon!`,
+    link: "https://www.nyimc.org/event/the-generous-heart/",
+    summary: `Dharma talk - The Generous Heart`,
     location: `ONLINE`,
   },
   {
