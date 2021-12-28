@@ -168,6 +168,7 @@ br {
 .events {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .events-row {
@@ -194,12 +195,17 @@ br {
   font-weight: bold;
   text-decoration: none;
   margin-bottom: 0.5rem;
+  /* width: 100%; */
 }
 
 .events-summary,
 .events-location {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.links-to-come {
+  padding-top: 0.25rem;
 }
 
 /* About page */
@@ -396,6 +402,10 @@ br {
 /* Donate page */
 .flag-inline {
   height: 1rem;
+}
+
+.youtube-logo {
+  vertical-align: top;
 }
 
 /* Contacts Bar */
