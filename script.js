@@ -8,42 +8,6 @@ const upcomingEvents = [
   // showDate = date to show listing until
 
   {
-    startDate: new Date(2022, 0, 1),
-    showDate: new Date(2022, 2, 31),
-    title: `BCIMS Tuesday Night Drop-ins`,
-    displayDate: `Tuesdays <br>7:00 PM <br>Jan - Mar <br>2022`,
-    link: "https://www.eventbrite.ca/e/weekly-mindfulness-meditation-group-tickets-226600216347",
-    summary: `Weekly sit and dharma talk with various teachers`,
-    location: `ONLINE, BCIMS`,
-  },
-  {
-    startDate: new Date(2022, 2, 10),
-    showDate: new Date(2022, 2, 10),
-    title: `Introduction to Buddhist Meditation: Mindfulness and Lovingkindness`,
-    displayDate: `Mar 10 - <br>Apr 14 <br>2022`,
-    link: "https://www.buddhistinquiry.org/course/introduction-to-buddhist-meditation-mindfulness-and-lovingkindness/",
-    summary: `Weekly class`,
-    location: `ONLINE, Barre Center for Buddhist Studies`,
-  },
-  {
-    startDate: new Date(2022, 0, 14),
-    showDate: new Date(2022, 0, 14),
-    title: `Still In the City: A 90-Day Meditation Practice Period and Online Course`,
-    displayDate: `Jan 14 - <br>Apr 15 <br>2022`,
-    link: "https://www.nyimc.org/event/still-in-the-city-a-90-day-meditation-practice-period-and-online-course/",
-    summary: `Weekly class`,
-    location: `ONLINE, New York Insight`,
-  },
-  {
-    startDate: new Date(2022, 3, 10),
-    showDate: new Date(2022, 3, 10),
-    title: `Satipatthana Meditation with Bhikkhu Analayo`,
-    displayDate: `Apr 10 - <br>Jun 11 <br>2022`,
-    link: "https://www.buddhistinquiry.org/online-programs/satipatthana_meditation/",
-    summary: `Weekly class`,
-    location: `ONLINE, Barre Center for Buddhist Studies`,
-  },
-  {
     startDate: new Date(2022, 4, 7),
     showDate: new Date(2022, 4, 7),
     title: `Daylong of practice: Wise attention (with Dawn Scott)`,
@@ -88,6 +52,15 @@ const upcomingEvents = [
     link: "https://bcims_july_retreat.eventbrite.ca",
     location: `Bethlehem Retreat Centre<br><strong>Applications open April 1</strong>`,
   },
+  {
+    startDate: new Date(2022, 8, 1),
+    showDate: new Date(2022, 8, 1),
+    title: `Residential Retreat (with Roxanne Dault)`,
+    displayDate: `Sep 1-4 <br>2022`,
+    summary: `Residential Retreat`,
+    location: `Bethlehem Retreat Centre`,
+    link: "https://www.eventbrite.ca/e/residential-retreat-with-rachel-lewis-and-roxanne-dault-tickets-321918656367",
+  },
 ];
 
 const eventsInDevelopment = [
@@ -99,14 +72,7 @@ const eventsInDevelopment = [
     summary: `Daylong Retreat`,
     location: `ONLINE, Insight Meditation Society`,
   },
-  {
-    startDate: new Date(2022, 8, 1),
-    showDate: new Date(2022, 8, 1),
-    title: `Residential Retreat (with Roxanne Dault)`,
-    displayDate: `Sep 1-4 <br>2022`,
-    summary: `Residential Retreat`,
-    location: `Bethlehem Retreat Centre`,
-  },
+
   {
     startDate: new Date(2022, 9, 1),
     showDate: new Date(2022, 9, 1),
