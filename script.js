@@ -61,9 +61,6 @@ const upcomingEvents = [
     location: `Bethlehem Retreat Centre`,
     link: "https://www.eventbrite.ca/e/residential-retreat-with-rachel-lewis-and-roxanne-dault-tickets-321918656367",
   },
-];
-
-const eventsInDevelopment = [
   {
     startDate: new Date(2022, 9, 23),
     showDate: new Date(2022, 9, 23),
@@ -71,8 +68,11 @@ const eventsInDevelopment = [
     displayDate: `Oct 23 <br>2022`,
     summary: `Daylong Retreat`,
     location: `ONLINE, Insight Meditation Society`,
+    link: "https://ims.dharma.org/courses/mini-retreat-wise-attention",
   },
+];
 
+const eventsInDevelopment = [
   {
     startDate: new Date(2022, 9, 1),
     showDate: new Date(2022, 9, 1),
