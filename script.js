@@ -49,7 +49,7 @@ const upcomingEvents = [
     title: `Meditation Mini-Retreat`,
     displayDate: `5 Feb 2023<br> 9 AM - 12 PM PST`,
     summary: `Extended Morning Sit`,
-    location: `2950 Laurel St., Vancouver`,
+    location: `ONLINE`,
     link: "https://www.eventbrite.ca/e/meditation-mini-retreats-tickets-466641175317",
   },
   {
@@ -58,7 +58,7 @@ const upcomingEvents = [
     title: `Meditation Mini-Retreat`,
     displayDate: `12 Mar 2023<br> 9 AM - 12 PM PST`,
     summary: `Extended Morning Sit`,
-    location: `2950 Laurel St., Vancouver`,
+    location: `ONLINE`,
     link: "https://www.eventbrite.ca/e/meditation-mini-retreats-tickets-466641175317",
   },
   {
@@ -67,7 +67,7 @@ const upcomingEvents = [
     title: `Meditation Mini-Retreat`,
     displayDate: `16 Apr 2023<br> 9 AM - 12 PM PST`,
     summary: `Extended Morning Sit`,
-    location: `2950 Laurel St., Vancouver`,
+    location: `ONLINE`,
     link: "https://www.eventbrite.ca/e/meditation-mini-retreats-tickets-466641175317",
   },
   {
