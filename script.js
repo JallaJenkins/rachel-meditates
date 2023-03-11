@@ -77,6 +77,16 @@ const upcomingEvents = [
     displayDate: `May 30 - <br>June 3<br>2023`,
     summary: `Residential Retreat`,
     location: `Bethlehem Retreat Centre in Nanaimo, BC`,
+    link: "https://www.eventbrite.ca/e/residential-retreat-with-rachel-lewis-and-dawn-scott-2023may30beth-registration-469412283777",
+  },
+  {
+    startDate: new Date(2023, 3, 4),
+    showDate: new Date(2023, 3, 5),
+    title: `The Beautiful Qualities of the Heart`,
+    displayDate: `Apr 4 -<br>May 2<br>2023`,
+    summary: `Weekly Evening Class`,
+    location: `St. Mary Magdalene Church, Vancouver`,
+    link: "https://www.eventbrite.ca/e/the-beautiful-qualities-of-the-heart-bcims-in-person-class-tickets-560892985017",
   },
 ];
 
