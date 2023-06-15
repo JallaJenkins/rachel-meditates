@@ -17,12 +17,12 @@ const upcomingEvents = [
     link: "https://www.buddhistinquiry.org/online-programs/mob/",
   },
   {
-    startDate: new Date(2023, 8, 11),
+    startDate: new Date(2023, 0, 1),
     showDate: new Date(2023, 8, 11),
-    title: `Paramis 10-Month Intensive`,
+    title: `** Paramis 10-Month Intensive **`,
     displayDate: `Sept 2023 -<br>June 2024`,
     summary: `Online Dharma Study Program`,
-    location: `Registration now open - Click title above for details`,
+    location: `REGISTRATION NOW OPEN - Click title above for details`,
     link: "https://docs.google.com/document/d/1xojh_3r7rzpwh0PwlliPlo-t5tTdsUezuV4qcDTSxk4/edit?usp=sharing",
   },
   {
@@ -40,7 +40,7 @@ const upcomingEvents = [
     title: `Spirituality for Bereavement and End-of-life (by Peace Arch Hospice Society)`,
     displayDate: `June 21<br>10 AM -<br>2:30 PM<br>PT`,
     summary: `Interfaith event & panel discussion`,
-    location: `Gracepoint Community Church<br>3487 King George Blvd, Surrey, BC<br><em>Register by June 19th <em>`,
+    location: `Gracepoint Community Church<br>3487 King George Blvd, Surrey, BC<br><em>** Register by June 19th **<em>`,
     link: "https://www.peacearchhospice.org/spirituality-for-bereavement-end-of-life/",
   },
   {
@@ -52,18 +52,18 @@ const upcomingEvents = [
     location: `ONLINE (sponsored by <a class="link-text" href='https://www.dharma.org'>Insight Meditation Society</a>)`,
     link: "https://ims.dharma.org/bundles/metta-sangha",
   },
-];
-
-const eventsInDevelopment = [
   {
     startDate: new Date(2023, 6, 23),
     showDate: new Date(2023, 6, 23),
-    title: `Mini-retreat: introduction to meditation`,
+    title: `Mini-retreat: The Joy of Presence`,
     displayDate: `July 23<br>6-9 AM PT<br>2023`,
     summary: `Extended morning sit`,
     location: `ONLINE (sponsored by <a class="link-text" href='https://www.dharma.org'>Insight Meditation Society</a>)`,
-    link: "",
+    link: "https://ims.dharma.org/courses/the-Joy-of-Presence",
   },
+];
+
+const eventsInDevelopment = [
   {
     startDate: new Date(2023, 11, 8),
     showDate: new Date(2023, 11, 8),
