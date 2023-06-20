@@ -27,7 +27,7 @@ const upcomingEvents = [
   },
   {
     startDate: new Date(2023, 5, 20),
-    showDate: new Date(2023, 5, 20),
+    showDate: new Date(2023, 5, 21),
     title: `Meditation for World Refugee Day (by Rainbow Bridge)`,
     displayDate: `June 20<br>5:30-7 PM<br>PT`,
     summary: `Guided meditation & fundraiser`,
@@ -155,7 +155,7 @@ const eventsInDevelopmentSorted = eventsInDevelopment.sort(
 );
 
 const eventsInDevelopmentFiltered = eventsInDevelopmentSorted.filter(
-  (a) => a.showDate > new Date()
+  (a) => a.showDate >= new Date()
 );
 
 displayEventsInDevelopment(eventsInDevelopmentFiltered);
