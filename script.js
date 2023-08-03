@@ -61,6 +61,33 @@ const upcomingEvents = [
     location: `ONLINE (sponsored by <a class="link-text" href='https://www.dharma.org'>Insight Meditation Society</a>)`,
     link: "https://ims.dharma.org/courses/the-Joy-of-Presence",
   },
+  {
+    startDate: new Date(2023, 9, 15),
+    showDate: new Date(2023, 9, 15),
+    title: `Meditation mini-retreat`,
+    displayDate: `Oct 15<br>9 AM - 12 PM PT<br>2023`,
+    summary: `Extended morning sit`,
+    location: `ONLINE`,
+    link: "https://www.eventbrite.ca/e/meditation-mini-retreats-tickets-466640954657?aff=oddtdtcreator",
+  },
+  {
+    startDate: new Date(2023, 10, 12),
+    showDate: new Date(2023, 10, 12),
+    title: `Meditation mini-retreat`,
+    displayDate: `Nov 12<br>9 AM - 12 PM PT<br>2023`,
+    summary: `Extended morning sit`,
+    location: `ONLINE`,
+    link: "https://www.eventbrite.ca/e/meditation-mini-retreats-tickets-466640954657?aff=oddtdtcreator",
+  },
+  {
+    startDate: new Date(2023, 11, 28),
+    showDate: new Date(2023, 11, 28),
+    title: `Day of mindfulness`,
+    displayDate: `Dec 28<br>9 AM - 4 PM PT<br>2023`,
+    summary: `In-Person Daylong Retreat`,
+    location: `Mountain Rain Zen, 2016 Wall St, Vancouver, BC`,
+    link: "https://www.eventbrite.ca/e/days-of-mindfulness-tickets-690392321017?aff=oddtdtcreator",
+  },
 ];
 
 const eventsInDevelopment = [
