@@ -16,15 +16,7 @@ const upcomingEvents = [
     location: `Online`,
     link: "https://www.buddhistinquiry.org/online-programs/mob/",
   },
-  {
-    startDate: new Date(2023, 0, 1),
-    showDate: new Date(2023, 8, 11),
-    title: `** Paramis 10-Month Intensive **`,
-    displayDate: `Sept 2023 -<br>June 2024`,
-    summary: `Online Dharma Study Program`,
-    location: `REGISTRATION NOW OPEN - Click title above for details`,
-    link: "https://docs.google.com/document/d/1xojh_3r7rzpwh0PwlliPlo-t5tTdsUezuV4qcDTSxk4/edit?usp=sharing",
-  },
+
   {
     startDate: new Date(2023, 5, 20),
     showDate: new Date(2023, 5, 21),
