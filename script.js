@@ -8,52 +8,6 @@ const upcomingEvents = [
   // showDate = date to show listing until
 
   {
-    startDate: new Date(2023, 7, 8),
-    showDate: new Date(2023, 4, 29),
-    title: `Mindfulness of Breathing (with Bhikkhu Anālayo)`,
-    displayDate: `July 8 -<br>Sept 2<br>2023`,
-    summary: `Weekly Class`,
-    location: `Online`,
-    link: "https://www.buddhistinquiry.org/online-programs/mob/",
-  },
-
-  {
-    startDate: new Date(2023, 5, 20),
-    showDate: new Date(2023, 5, 21),
-    title: `Meditation for World Refugee Day (by Rainbow Bridge)`,
-    displayDate: `June 20<br>5:30-7 PM<br>PT`,
-    summary: `Guided meditation & fundraiser`,
-    location: `Casa Copal, 2291 W Broadway, Vancouver, BC`,
-    link: "https://www.eventbrite.ca/e/meditation-for-world-refugee-day-by-rainbow-bridge-tickets-610055120287",
-  },
-  {
-    startDate: new Date(2023, 5, 21),
-    showDate: new Date(2023, 5, 19),
-    title: `Spirituality for Bereavement and End-of-life (by Peace Arch Hospice Society)`,
-    displayDate: `June 21<br>10 AM -<br>2:30 PM<br>PT`,
-    summary: `Interfaith event & panel discussion`,
-    location: `Gracepoint Community Church<br>3487 King George Blvd, Surrey, BC<br><em>** Register by June 19th **<em>`,
-    link: "https://www.peacearchhospice.org/spirituality-for-bereavement-end-of-life/",
-  },
-  {
-    startDate: new Date(2023, 5, 13),
-    showDate: new Date(2023, 7, 22),
-    title: `IMS Metta Sangha`,
-    displayDate: `June - Dec<br>2023`,
-    summary: `Dharma course`,
-    location: `ONLINE (sponsored by <a class="link-text" href='https://www.dharma.org'>Insight Meditation Society</a>)`,
-    link: "https://ims.dharma.org/bundles/metta-sangha",
-  },
-  {
-    startDate: new Date(2023, 6, 23),
-    showDate: new Date(2023, 6, 23),
-    title: `Mini-retreat: The Joy of Presence`,
-    displayDate: `July 23<br>6-9 AM PT<br>2023`,
-    summary: `Extended morning sit`,
-    location: `ONLINE (sponsored by <a class="link-text" href='https://www.dharma.org'>Insight Meditation Society</a>)`,
-    link: "https://ims.dharma.org/courses/the-Joy-of-Presence",
-  },
-  {
     startDate: new Date(2023, 9, 15),
     showDate: new Date(2023, 9, 15),
     title: `Meditation mini-retreat`,
@@ -76,32 +30,40 @@ const upcomingEvents = [
     showDate: new Date(2023, 11, 28),
     title: `Day of mindfulness`,
     displayDate: `Dec 28<br>9 AM - 4 PM PT<br>2023`,
-    summary: `In-Person Daylong Retreat`,
+    summary: `In-person daylong retreat`,
     location: `Mountain Rain Zen, 2016 Wall St, Vancouver, BC`,
     link: "https://www.eventbrite.ca/e/days-of-mindfulness-tickets-690392321017?aff=oddtdtcreator",
   },
-];
-
-const eventsInDevelopment = [
   {
     startDate: new Date(2023, 11, 8),
     showDate: new Date(2023, 11, 8),
-    title: `IMS Online Retreat`,
-    displayDate: `Dec 8 -<br>Dec 10<br>2023`,
+    title: `Joy in the Darkness`,
+    displayDate: `Dec 9 -<br>Dec 10<br>2023`,
     summary: `Short online retreat`,
     location: `ONLINE (sponsored by <a class="link-text" href='https://www.dharma.org'>Insight Meditation Society</a>)`,
-    link: "",
+    link: "https://ims.dharma.org/collections/upcoming-live-programs",
   },
   {
-    startDate: new Date(2023, 9, 1),
-    showDate: new Date(2023, 9, 30),
-    title: `Satipaṭṭhāna Meditation (with Bhikkhu Anālayo`,
-    displayDate: `Oct - Dec<br>2023`,
-    summary: `Weekly Class`,
-    location: `ONLINE (sponsored by <a class="link-text" href='https://www.buddhistinquiry.org/'>Barre Center for Buddhist Studies</a>)`,
-    link: "",
+    startDate: new Date(2023, 11, 14),
+    showDate: new Date(2023, 11, 8),
+    title: `Heartfelt Wisdom`,
+    displayDate: `Dec 14 -<br>Dec 19<br>2023`,
+    summary: `Online hybrid retreat`,
+    location: `ONLINE (sponsored by <a class="link-text" href='https://www.dharma.org'>Insight Meditation Society</a>)`,
+    link: "https://ims.dharma.org/courses/heartfelt-wisdom-2023",
+  },
+  {
+    startDate: new Date(2023, 11, 30),
+    showDate: new Date(2024, 0, 1),
+    title: `Experience of Insight`,
+    displayDate: `Dec 30<br>2023 &<br>Jan 2-31 2024`,
+    summary: `Month-long daily practice course`,
+    location: `ONLINE (sponsored by <a class="link-text" href='https://www.dharma.org'>Insight Meditation Society</a>)`,
+    link: "https://ims.dharma.org/courses/heartfelt-wisdom-2023",
   },
 ];
+
+const eventsInDevelopment = [];
 
 ///////////////////////////////////////////////////
 // HTML element selectors
@@ -109,6 +71,7 @@ const eventsInDevelopment = [
 // const events = document.querySelector(".events");
 // const eventsSummary = document.querySelector(".events-summary");
 const eventsBox = document.querySelector(".events-upcoming-box");
+const eventsInDevelopmentDiv = document.querySelector(".events-in-development");
 const eventsInDevelopmentBox = document.querySelector(
   ".events-in-development-box"
 );
@@ -152,21 +115,28 @@ displayUpcomingEvents(eventsFiltered);
 
 const displayEventsInDevelopment = function (events) {
   eventsInDevelopmentBox.innerHTML = ``;
-  events.forEach(function (event, i) {
-    const html = `<div class="events-row">
-    <div class="events-date">${event.displayDate}</div>
-    <div class="events-description">
-      <div class="events-name">
-        ${event.title}
-      </div>
-      <div class="events-summary">
-        ${event.summary}
-      </div>
-      <div class="events-location">${event.location}</div>
-    </div>`;
+  if (events.length === 0) {
+    // Remove header if list is empty
+    eventsInDevelopmentDiv.style.display = "none";
+  } else {
+    // Display sorted list
+    eventsInDevelopmentDiv.style.display = "block";
+    events.forEach(function (event, i) {
+      const html = `<div class="events-row">
+      <div class="events-date">${event.displayDate}</div>
+      <div class="events-description">
+        <div class="events-name">
+          ${event.title}
+        </div>
+        <div class="events-summary">
+          ${event.summary}
+        </div>
+        <div class="events-location">${event.location}</div>
+      </div>`;
 
-    eventsInDevelopmentBox.insertAdjacentHTML(`afterbegin`, html);
-  });
+      eventsInDevelopmentBox.insertAdjacentHTML(`afterbegin`, html);
+    });
+  }
 };
 
 const eventsInDevelopmentSorted = eventsInDevelopment.sort(
@@ -176,5 +146,7 @@ const eventsInDevelopmentSorted = eventsInDevelopment.sort(
 const eventsInDevelopmentFiltered = eventsInDevelopmentSorted.filter(
   (a) => a.showDate >= new Date()
 );
+
+console.log(eventsInDevelopmentFiltered);
 
 displayEventsInDevelopment(eventsInDevelopmentFiltered);
