@@ -10,11 +10,20 @@ const upcomingEvents = [
   {
     startDate: new Date(2024, 1, 1),
     showDate: new Date(2024, 1, 8),
-    title: `In the Buddha's Workds: Letting Go of the Senses`,
-    displayDate: `Feb 1 & 8<br>7 - 8:30 PM <b><u>ET</u></b><br>2024`,
+    title: `In the Buddha's Words: Letting Go of the Senses`,
+    displayDate: `Feb 1 & 8<br>4 - 5:30 PM PT<br>2024`,
     summary: `IMS Online Course`,
     location: `ONLINE`,
     link: "https://ims.dharma.org/courses/letting-go-of-the-senses",
+  },
+  {
+    startDate: new Date(2024, 3, 30),
+    showDate: new Date(2024, 3, 30),
+    title: `Cultivating the Joy of Insight (with Tuere Sala)`,
+    displayDate: `Apr 30 -<br>May 6<br>2024`,
+    summary: `BCIMS Residential Retreat`,
+    location: `Bethlehem Retreat Centre`,
+    link: "https://www.eventbrite.ca/e/bcims-residential-retreat-with-rachel-lewis-and-tuere-sala-2024apr30beth-registration-699771093177",
   },
 ];
 
