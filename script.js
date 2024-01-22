@@ -25,6 +25,24 @@ const upcomingEvents = [
     location: `Bethlehem Retreat Centre`,
     link: "https://www.eventbrite.ca/e/bcims-residential-retreat-with-rachel-lewis-and-tuere-sala-2024apr30beth-registration-699771093177",
   },
+  {
+    startDate: new Date(2024, 1, 17),
+    showDate: new Date(2024, 1, 7),
+    title: `Day of Mindfulness`,
+    displayDate: `Feb 17<br>9 AM - 4 PM<br>PT<br>2024`,
+    summary: `In person day-long retreat`,
+    location: `Mountain Rain Zen`,
+    link: "https://www.eventbrite.ca/e/day-of-mindfulness-tickets-804259209947",
+  },
+  {
+    startDate: new Date(2024, 3, 13),
+    showDate: new Date(2024, 3, 13),
+    title: `Day of Mindfulness`,
+    displayDate: `Apr 13<br>9 AM - 4 PM <br>PT<br>2024`,
+    summary: `In person day-long retreat`,
+    location: `Mountain Rain Zen`,
+    link: "https://www.eventbrite.ca/e/day-of-mindfulness-tickets-804273352247",
+  },
 ];
 
 const eventsInDevelopment = [];
