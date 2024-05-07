@@ -43,6 +43,15 @@ const upcomingEvents = [
     location: `Mountain Rain Zen`,
     link: "https://www.eventbrite.ca/e/day-of-mindfulness-tickets-804273352247",
   },
+  {
+    startDate: new Date(2024, 11, 29),
+    showDate: new Date(2024, 11, 29),
+    title: `New Year's Retreat (with Adrianne Ross)`,
+    displayDate: `Dec 29 2024<br>to<br>Jan 3 2025`,
+    summary: `Residential Retreat`,
+    location: `Bethlehem Retreat Centre, Nanaimo BC`,
+    link: "https://www.bcims.org/programs",
+  },
 ];
 
 const eventsInDevelopment = [];
