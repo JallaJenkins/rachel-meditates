@@ -115,7 +115,33 @@ const upcomingEvents = [
     location: `ONLINE`,
     link: "https://ims.dharma.org/courses/n-the-buddha-s-words-entering-into-emptiness",
   },
-  
+  {
+    startDate: new Date(2024, 7, 15),
+    showDate: new Date(2024, 7, 15),
+    title: `BCIMS park hang`,
+    displayDate: `Aug 15<br>6:30-<br>8:30 PM<br>PT`,
+    summary: `Come hang out in the park with us!`,
+    location: `Mount Pleasant Park (Ontario & 16th Ave., Vancouver)`,
+    link: "https://www.facebook.com/events/720932950158598/",
+  },
+  {
+    startDate: new Date(2024, 8, 14),
+    showDate: new Date(2024, 8, 14),
+    title: `Day of Mindfulness with Rachel Lewis`,
+    displayDate: `Sept 14<br>9 AM-<br>4 PM<br>PT`,
+    summary: `Daylong retreat, in person`,
+    location: `2950 Laurel Street, Vancouver (St Mary Magdalene Anglican Church)`,
+    link: "https://september_mindfulness.eventbrite.ca/",
+  },
+  {
+    startDate: new Date(2024, 9, 19),
+    showDate: new Date(2024, 9, 19),
+    title: `Seven Factors of Awakening 8-month online sutdy program`,
+    displayDate: `Oct 2024 -<br>May 2025`,
+    summary: `Intensive study course`,
+    location: `ONLINE`,
+    link: "https://docs.google.com/document/d/1PwJVoR98vai6CQYomtGH0QIR0FTNWhkhYErPROcLz-0/edit?usp=drive_link",
+  },
 ];
 
 const eventsInDevelopment = [];
