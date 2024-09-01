@@ -7,42 +7,10 @@ const upcomingEvents = [
   // startDate = date events starts
   // showDate = date to show listing until
 
-  {
-    startDate: new Date(2024, 1, 1),
-    showDate: new Date(2024, 1, 8),
-    title: `In the Buddha's Words: Letting Go of the Senses`,
-    displayDate: `Feb 1 & 8<br>4 - 5:30 PM PT<br>2024`,
-    summary: `IMS Online Course`,
-    location: `ONLINE`,
-    link: "https://ims.dharma.org/courses/letting-go-of-the-senses",
-  },
-  {
-    startDate: new Date(2024, 3, 30),
-    showDate: new Date(2024, 3, 30),
-    title: `Cultivating the Joy of Insight (with Tuere Sala)`,
-    displayDate: `Apr 30 -<br>May 6<br>2024`,
-    summary: `BCIMS Residential Retreat`,
-    location: `Bethlehem Retreat Centre`,
-    link: "https://www.eventbrite.ca/e/bcims-residential-retreat-with-rachel-lewis-and-tuere-sala-2024apr30beth-registration-699771093177",
-  },
-  {
-    startDate: new Date(2024, 1, 17),
-    showDate: new Date(2024, 1, 7),
-    title: `Day of Mindfulness`,
-    displayDate: `Feb 17<br>9 AM - 4 PM<br>PT<br>2024`,
-    summary: `In person day-long retreat`,
-    location: `Mountain Rain Zen`,
-    link: "https://www.eventbrite.ca/e/day-of-mindfulness-tickets-804259209947",
-  },
-  {
-    startDate: new Date(2024, 3, 13),
-    showDate: new Date(2024, 3, 13),
-    title: `Day of Mindfulness`,
-    displayDate: `Apr 13<br>9 AM - 4 PM <br>PT<br>2024`,
-    summary: `In person day-long retreat`,
-    location: `Mountain Rain Zen`,
-    link: "https://www.eventbrite.ca/e/day-of-mindfulness-tickets-804273352247",
-  },
+
+
+
+
   {
     startDate: new Date(2024, 11, 29),
     showDate: new Date(2024, 11, 29),
@@ -51,24 +19,6 @@ const upcomingEvents = [
     summary: `Residential Retreat`,
     location: `Bethlehem Retreat Centre, Nanaimo BC`,
     link: "https://www.bcims.org/programs",
-  },
-  {
-    startDate: new Date(2024, 6, 29),
-    showDate: new Date(2024, 6, 29),
-    title: `Monday Night Meditation and Talk`,
-    displayDate: `Jul 29<br>4:30 PM<br>PT`,
-    summary: `Dharma Talk and Guided Medtation`,
-    location: `ONLINE/Durango Dharma Center, Durango, Colorado`,
-    link: "https://www.durangodharmacenter.org/events/#!event/2024/7/29/monday-night-meditation-and-talk-with-rachel-lewis-in-person-and-online-with-rachel-streaming-on-zoom",
-  },
-  {
-    startDate: new Date(2024, 7, 13),
-    showDate: new Date(2024, 7, 13),
-    title: `IMS Metta Sangha`,
-    displayDate: `Aug 13<br>4-5 PM<br>PT`,
-    summary: `Metta Meditation and Dharma Talk`,
-    location: `ONLINE`,
-    link: "https://ims.dharma.org/courses/metta-sangha-2024",
   },
   {
     startDate: new Date(2024, 8, 10),
@@ -98,15 +48,6 @@ const upcomingEvents = [
     link: "https://ims.dharma.org/courses/metta-sangha-2024",
   },
   {
-    startDate: new Date(2024, 7, 26),
-    showDate: new Date(2024, 7, 26),
-    title: `IMS Monday Night Meditation`,
-    displayDate: `Aug 26<br>3-4 PM<br>PT`,
-    summary: `Guided Meditation and Dharma Discusssion`,
-    location: `ONLINE`,
-    link: "https://ims.dharma.org/courses/monday-night-meditation-2024",
-  },
-  {
     startDate: new Date(2024, 8, 5),
     showDate: new Date(2024, 8, 5),
     title: `In the Buddha's Words: Entering into Emptiness`,
@@ -114,15 +55,6 @@ const upcomingEvents = [
     summary: `Sutta Study Series`,
     location: `ONLINE`,
     link: "https://ims.dharma.org/courses/n-the-buddha-s-words-entering-into-emptiness",
-  },
-  {
-    startDate: new Date(2024, 7, 15),
-    showDate: new Date(2024, 7, 15),
-    title: `BCIMS park hang`,
-    displayDate: `Aug 15<br>6:30-<br>8:30 PM<br>PT`,
-    summary: `Come hang out in the park with us!`,
-    location: `Mount Pleasant Park (Ontario & 16th Ave., Vancouver)`,
-    link: "https://www.facebook.com/events/720932950158598/",
   },
   {
     startDate: new Date(2024, 8, 14),
@@ -141,6 +73,42 @@ const upcomingEvents = [
     summary: `Intensive study course`,
     location: `ONLINE`,
     link: "https://docs.google.com/document/d/1PwJVoR98vai6CQYomtGH0QIR0FTNWhkhYErPROcLz-0/edit?usp=drive_link",
+  },
+  {
+    startDate: new Date(2024, 8, 8),
+    showDate: new Date(2024, 8, 8),
+    title: `Meditation Mini-Retreat`,
+    displayDate: `Sept 8</br>2024</br>9 AM-12 PM PT`,
+    summary: `Half-day retreat`,
+    location: `ONLINE`,
+    link: "https://www.eventbrite.ca/e/meditation-mini-retreat-tickets-1000992885667?aff=oddtdtcreator",
+  },
+  {
+    startDate: new Date(2024, 9, 27),
+    showDate: new Date(2024, 9, 27),
+    title: `Meditation Mini-Retreat`,
+    displayDate: `Oct 27</br>2024</br>9 AM-12 PM PT`,
+    summary: `Half-day retreat`,
+    location: `ONLINE`,
+    link: "https://www.eventbrite.ca/e/meditation-mini-retreat-tickets-1000992885667?aff=oddtdtcreator",
+  },
+  {
+    startDate: new Date(2024, 10, 17),
+    showDate: new Date(2024, 10, 17),
+    title: `Meditation Mini-Retreat`,
+    displayDate: `Nov 17</br>2024</br>9 AM-12 PM PT`,
+    summary: `Half-day retreat`,
+    location: `ONLINE`,
+    link: "https://www.eventbrite.ca/e/meditation-mini-retreat-tickets-1000992885667?aff=oddtdtcreator",
+  },
+  {
+    startDate: new Date(2024, 11, 22),
+    showDate: new Date(2024, 11, 22),
+    title: `Meditation Mini-Retreat`,
+    displayDate: `Dec 22</br>2024</br>9 AM-12 PM PT`,
+    summary: `Half-day retreat`,
+    location: `ONLINE`,
+    link: "https://www.eventbrite.ca/e/meditation-mini-retreat-tickets-1000992885667?aff=oddtdtcreator",
   },
 ];
 
