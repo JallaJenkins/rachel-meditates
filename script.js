@@ -7,10 +7,6 @@ const upcomingEvents = [
   // startDate = date events starts
   // showDate = date to show listing until
 
-
-
-
-
   {
     startDate: new Date(2024, 11, 29),
     showDate: new Date(2024, 11, 29),
@@ -57,18 +53,9 @@ const upcomingEvents = [
     link: "https://ims.dharma.org/courses/n-the-buddha-s-words-entering-into-emptiness",
   },
   {
-    startDate: new Date(2024, 8, 14),
-    showDate: new Date(2024, 8, 14),
-    title: `Day of Mindfulness with Rachel Lewis`,
-    displayDate: `Sept 14<br>9 AM-<br>4 PM<br>PT`,
-    summary: `Daylong retreat, in person`,
-    location: `2950 Laurel Street, Vancouver (St Mary Magdalene Anglican Church)`,
-    link: "https://september_mindfulness.eventbrite.ca/",
-  },
-  {
     startDate: new Date(2024, 9, 19),
     showDate: new Date(2024, 9, 19),
-    title: `Seven Factors of Awakening 8-month online sutdy program`,
+    title: `Seven Factors of Awakening 8-month online study program`,
     displayDate: `Oct 2024 -<br>May 2025`,
     summary: `Intensive study course`,
     location: `ONLINE`,
@@ -78,7 +65,7 @@ const upcomingEvents = [
     startDate: new Date(2024, 8, 8),
     showDate: new Date(2024, 8, 8),
     title: `Meditation Mini-Retreat`,
-    displayDate: `Sept 8</br>2024</br>9 AM-12 PM PT`,
+    displayDate: `Sept 8</br>9 AM-12 PM PT`,
     summary: `Half-day retreat`,
     location: `ONLINE`,
     link: "https://www.eventbrite.ca/e/meditation-mini-retreat-tickets-1000992885667?aff=oddtdtcreator",
@@ -87,7 +74,7 @@ const upcomingEvents = [
     startDate: new Date(2024, 9, 27),
     showDate: new Date(2024, 9, 27),
     title: `Meditation Mini-Retreat`,
-    displayDate: `Oct 27</br>2024</br>9 AM-12 PM PT`,
+    displayDate: `Oct 27</br>9 AM-12 PM PT`,
     summary: `Half-day retreat`,
     location: `ONLINE`,
     link: "https://www.eventbrite.ca/e/meditation-mini-retreat-tickets-1000992885667?aff=oddtdtcreator",
@@ -96,7 +83,7 @@ const upcomingEvents = [
     startDate: new Date(2024, 10, 17),
     showDate: new Date(2024, 10, 17),
     title: `Meditation Mini-Retreat`,
-    displayDate: `Nov 17</br>2024</br>9 AM-12 PM PT`,
+    displayDate: `Nov 17</br>9 AM-12 PM PT`,
     summary: `Half-day retreat`,
     location: `ONLINE`,
     link: "https://www.eventbrite.ca/e/meditation-mini-retreat-tickets-1000992885667?aff=oddtdtcreator",
@@ -105,10 +92,37 @@ const upcomingEvents = [
     startDate: new Date(2024, 11, 22),
     showDate: new Date(2024, 11, 22),
     title: `Meditation Mini-Retreat`,
-    displayDate: `Dec 22</br>2024</br>9 AM-12 PM PT`,
+    displayDate: `Dec 22</br>9 AM-12 PM PT`,
     summary: `Half-day retreat`,
     location: `ONLINE`,
     link: "https://www.eventbrite.ca/e/meditation-mini-retreat-tickets-1000992885667?aff=oddtdtcreator",
+  },
+  {
+    startDate: new Date(2024, 9, 26),
+    showDate: new Date(2024, 9, 26),
+    title: `Day of Mindfulness with Rachel Lewis`,
+    displayDate: `Oct 26<br>9 AM-4 PM<br>PT`,
+    summary: `Day-long retreat`,
+    location: `2950 Laurel Street, Vancouver (St Mary Magdalene Anglican Church)`,
+    link: "https://www.eventbrite.ca/e/day-of-mindfulness-tickets-1000981120477",
+  },
+  {
+    startDate: new Date(2024, 10, 30),
+    showDate: new Date(2024, 10, 30),
+    title: `Day of Mindfulness with Rachel Lewis`,
+    displayDate: `Nov 30<br>9 AM-4 PM<br>PT`,
+    summary: `Day-long retreat`,
+    location: `2950 Laurel Street, Vancouver (St Mary Magdalene Anglican Church)`,
+    link: "https://www.eventbrite.ca/e/day-of-mindfulness-tickets-1000981120477",
+  },
+  {
+    startDate: new Date(2024, 11, 28),
+    showDate: new Date(2024, 11, 28),
+    title: `Day of Mindfulness with Rachel Lewis`,
+    displayDate: `Dec 28<br>9 AM-4 PM<br>PT`,
+    summary: `Day-long retreat`,
+    location: `2950 Laurel Street, Vancouver (St Mary Magdalene Anglican Church)`,
+    link: "https://www.eventbrite.ca/e/day-of-mindfulness-tickets-1000981120477",
   },
 ];
 
